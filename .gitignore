@@ -1,0 +1,49 @@
+# Archivos de configuración
+*.env
+config.php
+db_config.php
+
+# Archivos de log
+*.log
+debug_*.txt
+debug_*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de XAMPP que no son parte del proyecto
+/xampp/
+/htdocs/
+/tmp/
+
+# Archivos de dependencias
+/vendor/
+/node_modules/
+
+# Archivos de caché
+*.cache
+*.cache.*
+
+# Archivos de sesión
+*.sess
+*.session
+
+# Archivos de backup
+*.bak
+*.backup
+*~
+
+# Archivos de salida HTML
+*_output.html 
